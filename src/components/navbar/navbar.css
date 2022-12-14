@@ -1,57 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 .navbarContact {
-    width: 100%;
-    background-color: #3066BE;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    font-family: 'Lato', sans-serif;
-
+  width: 80%;
+  background-color: #3066be;
+  box-shadow: 0 0 0 100vmax #3066be;
+  clip-path: inset(0 -100vmax);
+  margin: auto;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: "Lato", sans-serif;
 }
-
-.navbarContact-left {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: bold;
-    margin-left: 150px;
-}
-.navbarContact-left img
-{
-    margin: 20px;
-}
-
+.navbarContact-left,
 .navbarContact-right {
-    display: flex;
-    align-items: center;
-    margin-right:150px
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.navbarContact-right img
-{
-    margin-left: 30px;
-    margin-right:5px
+.navbarContact-left > * {
+  margin: 10px;
+}
+.navbarContact-right > img {
+  margin: 0 5px 0 30px;
 }
 
 .navbarContent {
-    background-color: #393D3F;
-    width: 100%;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Lato', sans-serif;
-    color: white;
-    position: relative;
-    padding-right: 150px;
+  background-color: #393d3f;
+  width: 80%;
+  box-shadow: 0 0 0 100vmax #393d3f;
+  clip-path: inset(0 -100vmax);
+  margin: auto;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Lato", sans-serif;
+  color: white;
+  position: relative;
 }
-.navbarContent .logo
-{
-    margin-left:150px
+.navbarContent .logo {
+  margin-left: 10px;
 }
-.navbarContent div p1
+
+.navbarContent div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarContent div > * {
+  margin-left: 20px;
+}
+.navbarContent .dropdown
 {
-margin: 10px;
+  margin-right: 20px;
+  position: relative;
+
+}
+.navbarContent .dropdown:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
 }
