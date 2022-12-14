@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.navbarContact {
+    width: 100%;
+    background-color: #3066BE;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.navbarContact-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.navbarContact-left img
+{
+    margin: 20px;
+}
+
+.navbarContact-right {
+    display: flex;
+    align-items: center;
+    margin-right:150px
+}
+.navbarContact-right img
+{
+    margin-left: 30px;
+    margin-right:5px
+}
+
+.navbarContent {
+    background-color: #393D3F;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    position: relative;
+    padding-right: 150px;
+}
+.navbarContent .logo
+{
+    margin-left:150px
+}
+.navbarContent div p1
+{
+margin: 10px;
+}
